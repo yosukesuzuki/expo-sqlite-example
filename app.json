@@ -1,0 +1,32 @@
+{
+    "expo": {
+        "sdkVersion": "36.0.0", 
+        "orientation": "portrait", 
+        "description": "", 
+        "privacy": "public", 
+        "ios": {
+            "buildNumber": "1", 
+            "bundleIdentifier": "com.sqlite-example.app" 
+        }, 
+        "platforms": [
+            "ios", 
+            "android", 
+            "web"
+        ], 
+        "assetBundlePatterns": [
+            "**/*"
+        ], 
+        "splash": {
+            "image": "./assets/images/splash.png", 
+            "resizeMode": "contain", 
+            "backgroundColor": "#ffffff"
+        }, 
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        }, 
+        "version": "1.0.0", 
+        "icon": "./assets/images/_icon.png", 
+        "slug": "sqliteexample", 
+        "name": "Sqlite Example"
+    }
+}
