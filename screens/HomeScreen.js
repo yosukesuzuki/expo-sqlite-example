@@ -18,6 +18,20 @@ import * as Query from "../api/Query";
 import { nextKeysMap, nextKeysDefault } from "../api/NextKeyMap";
 
 const db = SQLite.openDatabase("sqlite3.db");
+/*
+let sqlTest = Query.builder("a");
+db.transaction(
+  tx => {
+    tx.executeSql(sqlTest, ["a"], (_, { rows: { _array } }) => {
+      console.log("sql executed");
+    });
+  },
+  e => {
+    console.log(e);
+  },
+  null
+);
+*/
 
 export default function HomeScreen(props) {
   const [keyInput, setKeyInput] = useState("");
